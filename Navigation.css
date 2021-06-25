@@ -1,0 +1,71 @@
+.main-card {
+    padding: 10;
+}
+
+.text {
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container {
+    display: flex;
+    height: 230px;
+    background-color: #BEC2D4;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-child {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.text {
+    text-align: center;
+    text-shadow: black;
+    font: optional;
+    line-height: 24PX;
+    margin-bottom: 30px;
+}
+
+.image-card {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f7f7;
+    border-style: solid;
+}
+
+.image-card h3 {
+    font-size: 30px;
+    text-shadow: 2px 2px 4px white;
+    float: right;
+    text-align: center;
+}
+
+.image-card input {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.add-btn:hover {
+    width: 22%;
+    height: auto;
+}
+
+.sub-heading {
+    text-align: center;
+    margin-top: 10px;
+}

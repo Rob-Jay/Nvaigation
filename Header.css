@@ -1,0 +1,42 @@
+    body {
+        background-color: #f1f1f1;
+    }
+    
+    .nav-main {
+        position: static;
+        justify-content: center;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(50, 78, 190);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .nav-main ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 15px;
+    }
+    
+    .nav-main ul li {
+        list-style: none;
+        line-height: 60px;
+    }
+    
+    .nav-main ul li a {
+        display: block;
+        height: 100%;
+        padding: 0 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+    }
+    
+    .nav-main ul li a:hover {
+        font-size: 26px;
+        font-style: italic;
+        text-decoration: underline;
+    }
